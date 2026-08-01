@@ -1,8 +1,11 @@
 aid: ourcrowd
 name: OurCrowd
-description: 'OurCrowd is a company surfaced as a portfolio company of softbank-vision-fund and added
-  to the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'OurCrowd is a global private-market investment platform that gives accredited and institutional
+  investors access to curated venture and alternative-asset deals. Through a single online account, members
+  can invest in pre-vetted startups, thematic and targeted venture funds, and a range of alternatives such
+  as private equity and private credit. The platform handles deal sourcing, due diligence, syndication, and
+  post-investment management. OurCrowd is a consumer-facing investment product and does not publish a public
+  developer API, SDKs, or developer documentation; this profile captures its public identity and web surface.'
 url: https://raw.githubusercontent.com/api-evangelist/ourcrowd/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +13,54 @@ x-backed-by:
 - softbank-vision-fund
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://www.ourcrowd.com/favicon.ico
 tags:
 - Company
 - Fintech
+- Investing
+- Venture Capital
+- Private Markets
+- Crowdfunding
+- Alternative Assets
 apis: []
+common:
+- type: DomainSecurity
+  url: security/ourcrowd-domain-security.yml
+- type: Website
+  url: https://www.ourcrowd.com/
+- type: About
+  url: https://www.ourcrowd.com/about
+- type: Support
+  url: https://www.ourcrowd.com/faq
+- type: HelpCenter
+  url: https://www.ourcrowd.com/faq
+- type: GettingStarted
+  url: https://www.ourcrowd.com/how-to-invest
+- type: TermsOfService
+  url: https://www.ourcrowd.com/terms
+- type: PrivacyPolicy
+  url: https://www.ourcrowd.com/privacy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
